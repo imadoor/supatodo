@@ -15,6 +15,7 @@ export default async function Header() {
             <span className="font-bold">SupaTodo</span>
           </a>
           <Link href="/todos">Todos</Link>
+          <Link href="/admin">Admin</Link>
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-2">
           { user !== null ?(
